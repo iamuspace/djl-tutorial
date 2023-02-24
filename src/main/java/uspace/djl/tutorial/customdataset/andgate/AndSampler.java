@@ -8,9 +8,9 @@ import java.util.Iterator;
 import java.util.List;
 
 public class AndSampler implements Sampler {
-	private NDArray[] data; 
-	private NDArray[] labels; 
-	public AndSampler(NDArray[] data, NDArray[] labels)
+	private float[][] data; 
+	private float[][] labels; 
+	public AndSampler(float[][] data, float[][] labels)
 	{
 		System.out.println("new AndSampler()");
 		this.data = data; 
