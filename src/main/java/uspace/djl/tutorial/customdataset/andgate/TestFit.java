@@ -20,7 +20,7 @@ import ai.djl.training.util.ProgressBar;
 import ai.djl.translate.TranslateException;
 import java.io.IOException;
 
-public class TestFit {	
+public class TestFit {	 
 	static void printDatasetInfo(Dataset dataset) throws IOException, TranslateException
 	{
         for (Batch batch : dataset.getData(NDManager.newBaseManager())) {
